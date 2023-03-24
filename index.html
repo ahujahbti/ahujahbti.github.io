@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Website</title>
+	<title>ENTBSYS - IT Solutions on Salesforce</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Welcome to my website!</h1>
-	<p>This is a sample webpage.</p>
-	<ul>
-		<li>Item 1</li>
-		<li>Item 2</li>
-		<li>Item 3</li>
-	</ul>
+	<header>
+		<div class="logo">
+			<img src="entbsys_logo.png" alt="ENTBSYS logo">
+			<h1>ENTBSYS</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="hero">
+			<h2>Welcome to ENTBSYS</h2>
+			<p>We provide IT solutions on Salesforce</p>
+			<button>Learn More</button>
+		</section>
+		<section class="about" id="about">
+			<h2>About ENTBSYS</h2>
+			<p>ENTBSYS is a leading provider of IT solutions on Salesforce. Our experienced team of consultants helps businesses of all sizes to streamline their processes, increase efficiency, and maximize profitability.</p>
+			<p>At ENTBSYS, we are committed to delivering high-quality solutions that meet the unique needs of our clients. Our focus on customer satisfaction, combined with our technical expertise and industry knowledge, has earned us a reputation as a trusted partner in the Salesforce ecosystem.</p>
+		</section>
+		<section class="contact" id="contact">
+			<h2>Contact Us</h2>
+			<form action="#" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 ENTBSYS. All rights reserved.</p>
+	</footer>
+	<script src="script.js"></script>
 </body>
 </html>
